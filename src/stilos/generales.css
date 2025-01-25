@@ -1,0 +1,13 @@
+.tema{
+    background-color: #111111;
+    color: white;
+}
+
+.contaniner-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100dvw;
+    color: white;
+}
