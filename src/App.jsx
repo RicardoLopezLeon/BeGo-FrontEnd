@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import './stilos/generales.css'
-import CargoOrders from './components/CargoOrders'
+import CargoOrders from './components/cargoorder/CargoOrders'
 import { OrdenesApi } from './consumoapis/OrdenesApi'
-import CargoDetails from './components/CargoDetails';
+import CargoDetails from './components/cargodetail/CargoDetails';
 
 function App() {
 

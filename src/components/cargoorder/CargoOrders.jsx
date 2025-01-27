@@ -1,6 +1,6 @@
 import Header from "../header"
-import '../stilos/Ordenes.css'
-import '../stilos/generales.css'
+import '../../stilos/Ordenes.css'
+import '../../stilos/generales.css'
 import NavOrders from './NavOrders';
 import SearchIcon from '@mui/icons-material/Search';
 import { useState } from 'react';

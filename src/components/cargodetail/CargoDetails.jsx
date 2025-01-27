@@ -1,15 +1,15 @@
 import { useCallback, useEffect, useState } from "react"
-import '../stilos/Ordenes.css'
-import {DetallesApi} from '../consumoapis/OrdenesApi'
+import '../../stilos/Ordenes.css'
+import {DetallesApi} from '../../consumoapis/OrdenesApi'
 import { Stepper, Step, StepLabel, Avatar, Collapse } from "@mui/material"
-import Header from "./header"
+import Header from "../header"
 import { styled } from '@mui/material/styles';
 import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 import LocalShippingTwoToneIcon from '@mui/icons-material/LocalShippingTwoTone';
 import CircleOutlinedIcon from '@mui/icons-material/CircleOutlined';
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import IconButton from '@mui/material/IconButton';
-import DetailPick from "./cargodetail/DetailPick"
+import DetailPick from "./DetailPick"
 
 const ExpandMore = styled((props) => {
     const { expand, ...other } = props;

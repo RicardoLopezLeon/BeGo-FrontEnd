@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Tab, Tabs, styled } from "@mui/material";
-import '../stilos/generales.css'
+import '../../stilos/generales.css'
 
 function NavOrders(){
 
