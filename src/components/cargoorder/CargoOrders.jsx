@@ -1,4 +1,4 @@
-import Header from './header';
+import Header from "../header"
 import '../stilos/Ordenes.css'
 import '../stilos/generales.css'
 import NavOrders from './NavOrders';
