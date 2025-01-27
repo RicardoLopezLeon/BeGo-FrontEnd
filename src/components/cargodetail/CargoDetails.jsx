@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from "react"
 import '../../stilos/Ordenes.css'
 import {DetallesApi} from '../../consumoapis/OrdenesApi'
 import { Stepper, Step, StepLabel, Avatar, Collapse } from "@mui/material"
-import Header from "../header"
+import Header from "../Header"
 import { styled } from '@mui/material/styles';
 import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 import LocalShippingTwoToneIcon from '@mui/icons-material/LocalShippingTwoTone';

@@ -33,7 +33,7 @@ function FichaOrden({order}){
 
     return(
         <>
-            <p style={{marginTop:'3vw'}}><span style={{color:'gray'}}>Order </span>#{order.order_number}</p>
+            <p style={{marginTop:'clamp(2em,5vw,7em)'}}><span style={{color:'gray'}}>Order </span>#{order.order_number}</p>
             {order != []
             ?<Paper variant="elevation" sx={{width:'82vw', display:'flex', flexDirection:'column', alignItems: 'center',
                 borderRadius:5, color:'white', background:'#111111'
