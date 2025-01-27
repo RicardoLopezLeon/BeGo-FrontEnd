@@ -4,10 +4,10 @@
 }
 
 .contaniner-header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
     width: 100dvw;
     color: white;
 }
